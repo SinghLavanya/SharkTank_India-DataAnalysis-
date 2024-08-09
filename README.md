@@ -5,20 +5,19 @@ The dataset titled Shark Tank India.csv contains detailed information about the 
 
 **1. Data Loading and Initial Exploration**
 
-Data Summary:
-
+- Data Summary:
 Command: shark_tank.info()
 Purpose: Provides an overview of the dataset, showing the number of entries, columns, data types, and non-null values. This helps in understanding the structure of the dataset and identifying potential data quality issues.
 
-Descriptive Statistics:
+- Descriptive Statistics:
 Command: shark_tank.describe().T.round(2).style.background_gradient(cmap='Oranges')
 Purpose: Generates summary statistics (mean, standard deviation, min, max, etc.) for each numeric feature. The use of a gradient background makes it easier to visually identify patterns or outliers in the data.
 
-Missing Values Check:
+- Missing Values Check:
 Command: shark_tank.isnull().sum()
 Purpose: Identifies missing values in the dataset, allowing for informed decisions on data cleaning and imputation strategies.
 
-Unique Values Count:
+- Unique Values Count:
 Command: shark_tank.nunique()
 Purpose: Provides the count of unique values in each column, which helps in understanding the variability and potential redundancy in the data.
 
@@ -45,7 +44,7 @@ Demographic Analysis
 Presenter Gender Distribution: Analysis of gender distribution among the presenters.
 
 Visualization: Pie chart.
-Insights: Percentage breakdown of male, female, and transgender presenters.
+Insights: Percentage Breakdown of male, female, and transgender presenters.
 Age Distribution: Analysis of the age distribution of presenters.
 
 Visualization: Pie chart.
