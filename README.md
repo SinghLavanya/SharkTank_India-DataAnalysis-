@@ -1,4 +1,6 @@
    **SharkTank_India-DataAnalysis**
+
+   
 The dataset titled Shark Tank India.csv contains detailed information about the pitches presented in the Indian version of the television show "Shark Tank." The dataset captures various attributes related to each pitch, including financial metrics, presenter demographics, industry type, and the outcomes of the pitches. This README document outlines the steps taken to analyze the data, including data cleaning, exploratory data analysis (EDA), and visualizations. Additionally, it provides suggestions for further analysis to extract more insights from the data.
 
 **1. Data Loading and Initial Exploration**
